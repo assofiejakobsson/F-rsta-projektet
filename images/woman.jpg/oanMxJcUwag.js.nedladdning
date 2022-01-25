@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["C3jpOCp"]); }
+
+__d("relay-runtime/util/withProvidedVariables",["areEqual","warning"],(function(a,b,c,d,e,f){"use strict";var g;b=typeof WeakMap==="function";var h=b?new WeakMap():new Map();function a(a,b){var c=b.providedVariables;if(c!=null){var d={};Object.assign(d,a);Object.keys(c).forEach(function(a){var b=c[a].get,e=b();if(!h.has(b))h.set(b,e),d[a]=e;else{e=h.get(b);d[a]=e}});return d}else return a}e.exports=a}),null);
