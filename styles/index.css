@@ -5,8 +5,7 @@ h1 {
 body {
     background-image: url(../images/20210822_155620.jpg);
     background-size: unset;
-    background-attachment: fixed;
-    background-color: aqua;
+    
 }
 h2 {
     color:rgb(25, 0, 255)
